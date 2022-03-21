@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fab61152e6.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+        rel="stylesheet" />
+    <title>AmoRenovation</title>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="#"><img src="./img/AMO_logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">ACCUEIL</a></li>
+                    <li><a href="#services">préstation</a></li>
+                    <li><a href="#real">realisations</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <div class="text-box">
+            <h1>Lorem, ipsum dolor.</h1>
+            <p>Lorem ipsum dolor sit.</p>
+            <a href="#contact" class="hero-btn">Demander</a>
+        </div>
+    </section>
+    <section id="services" class="service">
+        <h2>Nos Services</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, culpa!</p>
+
+        <div class="row">
+            <div class="service-col">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, repellendus porro voluptas sint
+                    corrupti facilis earum minima sapiente excepturi voluptatum qui vero. Laborum, quasi dignissimos!
+                </p>
+            </div>
+            <div class="service-col">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, repellendus porro voluptas sint
+                    corrupti facilis earum minima sapiente excepturi voluptatum qui vero. Laborum, quasi dignissimos!
+                </p>
+            </div>
+            <div class="service-col">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, repellendus porro voluptas sint
+                    corrupti facilis earum minima sapiente excepturi voluptatum qui vero. Laborum, quasi dignissimos!
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="real" class="real">
+        <h2>Nos realisations</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, quos?</p>
+
+        <div class="row">
+            <div class="real-col">
+                <img src="./img/1.jpg" alt="">
+                <div class="img-1 layer">
+                    <h3>Lorem, ipsum.</h3>
+                </div>
+            </div>
+            <div class="real-col ">
+                <img src="./img/6.jpg" alt="">
+                <div class="img-2 layer">
+                    <h3>Lorem, ipsum.</h3>
+                </div>
+            </div>
+            <div class="real-col ">
+                <img src="./img/4.jpg" alt="">
+                <div class="img-3 layer">
+                    <h3>Lorem, ipsum.</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20241.035982125828!2d2.9783607232255953!3d50.64328608814032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d557b14c6403%3A0x260af13f80091761!2sLomme%2C%2059160%20Lille!5e0!3m2!1sfr!2sfr!4v1647875647242!5m2!1sfr!2sfr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fas fa-home"></i>
+                    <span>
+                        <h5>Rue Adress Adresse</h5>
+                        <p>Paris 75012</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-phone"></i>
+                    <span>
+                        <h5>+3374554545</h5>
+                        <p>Lundi-Jeudi , 8h-19h </p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-envelope"></i>
+                    <span>
+                        <h5>amorenovation@gmail.com</h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="form.php" method="post">
+                    <input type="text" name="name" placeholder="Votre Nom" required>
+                    <input type="email" name="email" placeholder="votre adresse email" required>
+                    <input type="text" name="message" placeholder="Entrez votre text" required>
+                    <textarea  rows="8" placeholder="message"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>A propos de moi</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam placeat temporibus necessitatibus vero dolore illo, ratione quia blanditiis quis quae, ex laudantium. Possimus dolor id ipsa deserunt nam, accusamus non?</p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-facebook"></i>
+        </div>
+        <p><i class="far fa-copyright"></i>Artur</p>
+
+    </section>
+
+
+    <!-- -------JS Burger Menu-------- -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>
